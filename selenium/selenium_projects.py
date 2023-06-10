@@ -137,4 +137,4 @@ df['Price'] = df['Price'].astype('float')
 df['Disc'] = df['Disc'].apply(lambda x: 0 if x in ['Buy', 'Pre-order'] else int(x.split()[1])) # not every book has a discount. 
 
 print(df)
-df.to_csv("book1.csv")
+df.to_csv("book.csv")
