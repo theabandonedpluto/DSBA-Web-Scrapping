@@ -4,7 +4,7 @@
 - `xpath.py`: additional python code for training xpath. If you want to add more data to scrap, you can first test xpath with this file. 
 
 To run scrapper: 
-`scrapy crawl bookSpider`
+`scrapy crawl bookSpider`\n
 To run xpath.py 
 `python3 xpath.py`
 
