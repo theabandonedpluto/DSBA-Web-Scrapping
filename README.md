@@ -8,3 +8,7 @@
 - code will generate `book_data.csv` output
 
 ## 3. Selenium
+- download `selenium_projects.py` from the selenium folder
+- change the `gecko_path` accordingly to the gecko in your local computer
+- in the terminal, run the command `python3 seleninum_projects.py` and the selenium will run in mozilla firefox browser
+- the result of the scrapping will be generated in `book.csv`
