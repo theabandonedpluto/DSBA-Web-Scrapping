@@ -3,7 +3,7 @@
 
 ## 2. Scrapy 
 - download `libristo` scrapy project folder
-- in bookSpider the `page_limit` is set to True and spider scraps 100 links: change the default in .__init__ constructor if the different number to be scrapped
+- in `bookSpider.py` the `page_limit` is set to True and spider scraps 100 links: change the default in .__init__ constructor if the different number to be scrapped
 - in bash, run command `scrapy crawl bookSpider`
 - code will generate `book_data.csv` output
 
